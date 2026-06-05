@@ -1,42 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hane Portfolio</title>
+
+    <style>
+        body{
+            background:#0f172a;
+            color:white;
+            font-family:Arial,sans-serif;
+            max-width:1000px;
+            margin:auto;
+            padding:40px 20px;
+        }
+
+        .card{
+            background:#1e293b;
+            border:1px solid #334155;
+            border-radius:16px;
+            padding:24px;
+            margin-bottom:24px;
+        }
+
+        h1{
+            color:#3b82f6;
+        }
+
+        h2{
+            margin-bottom:15px;
+        }
+
+        ul{
+            padding-left:20px;
+        }
+
+        li{
+            margin-bottom:10px;
+        }
+
+        .hero{
+            text-align:center;
+            padding:60px 20px;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:15px;
+            background:#3b82f6;
+            color:white;
+            text-decoration:none;
+            padding:12px 24px;
+            border-radius:10px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hi, my name's Hane</h1>
-    <h2>Business Development at Miko Tech Vietnam</p>
 
-    <h2>Kinh nghiệm cá nhân</h2>
-    <ul>
-        <li>Tư vấn dịch vụ phù hợp với tệp khách hàng</li>
-        <li>Đưa ra giải pháp phù hợp</li>
-        <li>Phân tích nhu cầu khách hàng</li>
-        <li>Xử lý vấn đề kịp thời, nhanh chóng</li>
-    </ul>
-        
-    <h2>Dịch vụ nổi bật</h2>
-    <ul>
-        <li>Website doanh nghiệp</li>
-        <li>App doanh nghiệp</li>
-        <li>Bộ nhận diện thương hiệu</li>
-        <li>Hệ thống quản lý</li>
-    </ul>
+    <div class="hero">
+        <h1>Hi, my name's Hane</h1>
+        <h2>Business Development at Miko Tech Vietnam</h2>
 
-    <h2>Liên hệ</h2>
-    <p>Email: your@email.com</p>
+        <a href="#contact" class="btn">Liên hệ tôi</a>
+    </div>
+
+    <div class="card">
+        <h2>Kinh nghiệm cá nhân</h2>
+
+        <ul>
+            <li>Tư vấn dịch vụ phù hợp với tệp khách hàng</li>
+            <li>Đưa ra giải pháp phù hợp</li>
+            <li>Phân tích nhu cầu khách hàng</li>
+            <li>Xử lý vấn đề kịp thời, nhanh chóng</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Dịch vụ nổi bật</h2>
+
+        <ul>
+            <li>Website doanh nghiệp</li>
+            <li>App doanh nghiệp</li>
+            <li>Bộ nhận diện thương hiệu</li>
+            <li>Hệ thống quản lý</li>
+        </ul>
+    </div>
+
+    <div class="card" id="contact">
+        <h2>Liên hệ</h2>
+
+        <p>Email: your@email.com</p>
+        <p>LinkedIn: linkedin.com/in/hane</p>
+    </div>
+
 </body>
 </html>
-body{
-    background:#0f172a;
-    color:white;
-    font-family:Arial,sans-serif;
-}
-
-.card{
-    background:#1e293b;
-    border:1px solid #334155;
-    border-radius:16px;
-    padding:24px;
-    width:300px;
-}
